@@ -1,0 +1,151 @@
+:root {
+    --main-color: rgb(0, 114, 69);
+    --head-text: #454c45 ;
+    --lightgeen1-box: #d6e5d8 ;
+}
+
+body {
+    background: rgb(243, 255, 255);
+}
+
+
+/* Start local */
+
+.w-h-img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+}
+.m-bot-m-top {
+    padding-bottom: 65px;
+    padding-top: 65px;
+}
+
+
+h3 {
+    color: var(--main-color);
+}
+h4 {
+    color: var(--head-text);
+}
+h1 {
+    color: var(--head-text);
+}
+h2 {
+    color: var(--head-text);
+    font-weight: 700;
+}
+p {
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.hold-stars {
+    width: 130px;
+    margin-bottom: 20px ;
+}
+.hold-stars img{
+    width: 100%;
+}
+/* End local */
+
+
+
+.hold {
+    max-width: 800px;
+}
+
+.photo {
+    max-width: 800px;
+}
+
+/* Start navbar */
+.navbar .navbar-nav .nav-link {
+    color: #242424;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+    color: var(--main-color);
+}
+
+.Book-Table {
+    background: var(--main-color);
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+}
+/* End navbar */
+
+/* Start Footer */
+footer {
+    background-color: #e2e2e2;
+}
+footer ul {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+}
+footer ul li{
+    list-style: none;
+    padding: 3px;
+    font-size: 18px;
+}
+footer  a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* End Footer */
+
+
+/* Start Our Info  */
+.storeInfo .container .Infoitem{
+    width: 210px;
+    height: 210px;
+    background-color: var(--lightgeen1-box);
+    border-radius: 15px;
+}
+.storeInfo .container .Infoitem i{
+    color: var(--main-color);
+}
+/* End Our Info  */
+
+
+
+
+
+/* Start form  */
+section form input ,
+section form select {
+    padding: 10px;
+    border: none;
+    background:var(--lightgeen1-box);
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+textarea {
+    background: var(--lightgeen1-box);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+label {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* End form */
